@@ -1,0 +1,4 @@
+Q Self-Reg: deployed=0.108304 entropy=0.0130 unique=4
+Q Fixed: deployed=0.152742 entropy=0.0173 unique=9
+C Self-Reg: deployed=0.292147 entropy=0.0000 unique=1
+C Fixed: deployed=0.302643 entropy=0.0000 unique=1
