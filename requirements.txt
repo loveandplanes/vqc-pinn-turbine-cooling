@@ -1,0 +1,8 @@
+# PyTorch + PennyLane dependencies (Python 3.12, CPU sufficient)
+torch==2.12.0
+pennylane==0.43.1
+matplotlib==3.10.8
+scipy==1.16.3
+numpy==2.3.5
+python-dotenv==1.2.2
+openai==2.37.0
