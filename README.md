@@ -51,6 +51,9 @@ Honest limitations.
   (what you would actually manufacture — the honest metric).
 - Seed 123 is the honest caveat: quantum trails on train-E yet wins deployed.
   It ends every run with live gradients; classical flatlines at 0.00e+00 twice.
+- Control arm: a 6,624-param classical MLP (~108× the quantum agent) collapses
+  *harder* — fair deployed 0.330/0.311, 1 design, gradients dead from epoch 50.
+  Collapse is dynamical, not a capacity shortage. (`verify_big_classical.py`)
 
 ![Fix verification: expected vs deployed cost](fix_verification.png)
 
