@@ -10,6 +10,25 @@ the flight envelope instead of collapsing onto one design, the quantum agent
 (61 params) beats the classical agent (336 params) on deployed cost while
 tracking 5–6 pressure-dependent designs vs 1.
 
+## Why
+
+Real turbine-design landscapes are rugged: thin-wall traps, channel clustering,
+and coupled constraints (rotor balance forces *coordinated* multi-channel moves
+that local optimizers can't make). Classical gradient descent walks downhill
+from one start and gets stuck — and in this benchmark it does something worse:
+it collapses onto a single "average" blade and its gradients die entirely.
+
+The quantum bet: superposition and entanglement hold many candidate layouts at
+once and reshape their probabilities *together*, so exploration is structural
+rather than lucky. Deliberate "creativity" tools keep it exploring — a
+temperature dial that spreads or sharpens the distribution, Gumbel noise in
+selection, and shock recoveries that kick the circuit out of flat regions
+(barren plateaus). The classical physics verifier acts as guardrail: the
+quantum designer may dream freely, but only physically sound blades survive
+scoring. Quantum proposes, physics disposes — a NISQ-scale sketch of the
+hybrid quantum-classical workflow industry (e.g. Rolls-Royce/Quantinuum) is
+pursuing at scale: each side doing what it's good at.
+
 ## Project & Scope
 
 **The system.** A fixed NACA 4412 turbine-blade profile (50 mm chord) with two
