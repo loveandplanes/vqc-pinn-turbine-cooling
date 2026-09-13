@@ -135,7 +135,9 @@ only for `config.py` utilities (never committed — see `.gitignore`).
 
 - Rolls-Royce / Quantinuum / Riverlane / EPCC (Jul 2026) pursue quantum-accelerated
   CFD *simulation* subroutines in hybrid HPC workflows. This repo is complementary:
-  quantum-assisted design *search* against a physics verifier.
+  quantum-assisted design *search* against a physics verifier. Conceived and built
+  independently of that programme — cited here as convergent evidence that the
+  hybrid quantum-classical direction matters for turbine engineering, not as a source.
 - OpenAI's Sep 2026 Navier–Stokes blow-up claim is a pure-math existence proof,
   not a solver — it changes nothing about CFD or optimization practice.
 - Neighboring work: hybrid quantum PINNs as PDE solvers (arXiv:2503.02202),
