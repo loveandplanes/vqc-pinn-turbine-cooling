@@ -76,7 +76,7 @@ Honest limitations.
 
 ![Fix verification: expected vs deployed cost](fix_verification.png)
 
-## Why the original benchmark lied (and what was fixed)
+## Where the first benchmark went wrong (and what was fixed)
 
 1. **Broken normalization.** Global [0,1] scaling divided everything by the
    catastrophic-design range (~2.1M), compressing the real 751% raw gap
