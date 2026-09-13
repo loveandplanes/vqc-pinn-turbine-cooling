@@ -120,6 +120,8 @@ only for `config.py` utilities (never committed — see `.gitignore`).
   pumping, 15k-RPM centrifugal stress, film-cooling drag, rotor mass balance)
 - `verify_*.py`, `diagnose_*`, `analyze_*`, `quantify_*` — diagnostics & ablations
 - `results.md` — consolidated honest results (supersedes earlier notes)
+- `su2_anchor/` — Stage-1 CFD anchoring package (mesh + SU2 cases + comparison);
+  mesh self-validated (0/24,480 inverted cells), awaiting a solver install
 - `fix_verification.png` — verified result figure (embedded above);
   `rigorous_benchmark.png` / `rigorous_geometries.png` regenerate on the full run
 
