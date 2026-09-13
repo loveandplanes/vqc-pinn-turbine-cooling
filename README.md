@@ -119,6 +119,7 @@ only for `config.py` utilities (never committed — see `.gitignore`).
 - `turbine_pinn_geometry.py` — multi-physics verifier (aerothermal, Darcy–Weisbach
   pumping, 15k-RPM centrifugal stress, film-cooling drag, rotor mass balance)
 - `verify_*.py`, `diagnose_*`, `analyze_*`, `quantify_*` — diagnostics & ablations
+- `results.md` — consolidated honest results (supersedes earlier notes)
 - `fix_verification.png` — verified result figure (embedded above);
   `rigorous_benchmark.png` / `rigorous_geometries.png` regenerate on the full run
 
