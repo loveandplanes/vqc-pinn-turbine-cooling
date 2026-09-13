@@ -123,3 +123,9 @@ only for `config.py` utilities (never committed — see `.gitignore`).
   QPINN trainable embeddings for lid-driven cavity NS (arXiv:2605.13892),
   HHL-coupled Navier–Stokes solvers (arXiv:2603.18222), PINN turbine screening
   (arXiv:2605.07131). This repo differs: quantum on the *designer* side.
+
+## Contact
+
+Questions, ideas, or spotted a flaw? Open an
+[issue](https://github.com/loveandplanes/vqc-pinn-turbine-cooling/issues) —
+that's the fastest way to reach me.
