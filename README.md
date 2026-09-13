@@ -38,7 +38,7 @@ design agents competing under one physics judge:
 - *Quantum designer:* 4-layer variational circuit (5 qubits → 32 candidate
   designs) with Gumbel-Softmax selection and self-regulating exploration
   temperature.
-- *Classical designer:* parameter-matched MLP with the identical
+- *Classical designer:* capacity-controlled MLP with the identical
   Gumbel + codebook interface, so the only difference is how the probability
   distribution is generated.
 - *Verifier (shared):* multi-physics evaluator — aerothermal limits,
