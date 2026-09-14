@@ -27,7 +27,12 @@ selection, and shock recoveries that kick the circuit out of flat regions
 quantum designer may dream freely, but only physically sound blades survive
 scoring. Quantum proposes, physics disposes — a NISQ-scale sketch of the
 hybrid quantum-classical workflow industry (e.g. Rolls-Royce/Quantinuum) is
-pursuing at scale: each side doing what it's good at.
+pursuing at scale: each side doing what it's good at. It is also the nearer-term
+half of that bet — fault-tolerant quantum CFD awaits error-corrected machines,
+while a cheap NISQ-compatible searcher over today's classical simulators runs
+now, exactly where leverage is highest, since conceptual choices lock most of an
+aircraft's lifetime cost and performance. The bar is ranking reliably enough to
+surface viable non-baseline concepts, which is what the tracking results measure.
 
 Why this direction matters: conventional aeronautics is deep into
 diminishing returns across the board — aerodynamic configuration (lift-to-drag
