@@ -29,9 +29,10 @@ scoring. Quantum proposes, physics disposes — a NISQ-scale sketch of the
 hybrid quantum-classical workflow industry (e.g. Rolls-Royce/Quantinuum) is
 pursuing at scale: each side doing what it's good at.
 
-Why this direction matters: conventional aircraft configurations are deep into
-diminishing returns — decades of gradient-driven refinement have polished the
-tube-and-wing near its thermodynamic and propulsive limits, while climate targets
+Why this direction matters: conventional aeronautics is deep into
+diminishing returns across the board — aerodynamic configuration (lift-to-drag
+ratios stagnant for decades), structures (weight fractions squeezed dry), and
+propulsion (thermodynamic ceilings closing in) — while climate targets
 demand step changes that incremental tweaks cannot deliver. Those live in
 unconventional regions of design space, and gradient optimizers are structurally
 bad at going there: they descend into the nearest basin and, as this repo
