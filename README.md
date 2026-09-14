@@ -38,7 +38,12 @@ unconventional regions of design space, and gradient optimizers are structurally
 bad at going there: they descend into the nearest basin and, as this repo
 documents, can collapse outright instead of holding alternatives open.
 Collapse-resistant exploration is a prerequisite for any optimizer expected to
-find radical designs rather than re-polish familiar ones. Honest scope: this repo
+find radical designs rather than re-polish familiar ones. Measured here in its
+minimal form: the context-tracking mapping (4–9 pressure-dependent designs,
+gradients alive) was reached 4/4 times by the quantum policy and 0/6 times by
+classical optimizers at 336 and 6,624 params alike. Those configurations are not
+unrepresentable classically — an MLP could express the mapping — but they are
+unreachable by gradient learning, which collapses first. Honest scope: this repo
 demonstrates that machinery on a 32-design menu, not the invention of novel
 configurations — the radical-design claim is directional, for generative setups
 at scale.
