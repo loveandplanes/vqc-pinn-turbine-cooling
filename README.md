@@ -48,6 +48,16 @@ demonstrates that machinery on a 32-design menu, not the invention of novel
 configurations — the radical-design claim is directional, for generative setups
 at scale.
 
+Deployment limits are real and specific: intricate internal geometries are hard
+to inspect (no line of sight into a channel), prone to fouling and blockage,
+difficult to repair, and expensive to certify — and additive manufacturing
+imprints wall roughness the aerodynamics must swallow (this verifier already
+penalizes it through the Darcy term). Those limits constrain *which* designs can
+fly, not *whether* searching is worthwhile: they belong inside the verifier as
+penalties, exactly where this architecture puts them, so exploration ranges over
+the feasible envelope rather than fantasy. Searching costs compute; missing a
+step-change costs the industry.
+
 ## Project & Scope
 
 **The system.** A fixed NACA 4412 turbine-blade profile (50 mm chord) with two
