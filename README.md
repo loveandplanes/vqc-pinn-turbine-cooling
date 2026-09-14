@@ -29,6 +29,19 @@ scoring. Quantum proposes, physics disposes — a NISQ-scale sketch of the
 hybrid quantum-classical workflow industry (e.g. Rolls-Royce/Quantinuum) is
 pursuing at scale: each side doing what it's good at.
 
+Why this direction matters: conventional aircraft configurations are deep into
+diminishing returns — decades of gradient-driven refinement have polished the
+tube-and-wing near its thermodynamic and propulsive limits, while climate targets
+demand step changes that incremental tweaks cannot deliver. Those live in
+unconventional regions of design space, and gradient optimizers are structurally
+bad at going there: they descend into the nearest basin and, as this repo
+documents, can collapse outright instead of holding alternatives open.
+Collapse-resistant exploration is a prerequisite for any optimizer expected to
+find radical designs rather than re-polish familiar ones. Honest scope: this repo
+demonstrates that machinery on a 32-design menu, not the invention of novel
+configurations — the radical-design claim is directional, for generative setups
+at scale.
+
 ## Project & Scope
 
 **The system.** A fixed NACA 4412 turbine-blade profile (50 mm chord) with two
